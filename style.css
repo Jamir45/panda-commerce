@@ -1,37 +1,95 @@
-.navSection{height: 100px;
-}
-
-a.navItem {
-padding: 17px;
-font-size: 18px;
-font-weight: bold;
-transition: 0.6s;
-}
-.menu {
-width: 606px;
-}
-.carouselSlider{background-color: #fceae8;}
-
-.carousel-item{padding: 20px 50px;}
-h1.price {
-color: #ff2279;
-}
-button.buyNow {
-padding: 2px 11px;
-background-image: linear-gradient(31deg, #fc0a67, #fa08086b);
-border-radius: 5px;
-border: none;
-font-size: 20px;
-color: white;
-}
-.section2{padding: 50px 0px;}
-.cat1{background-color: orange;
-     padding: 10px 20px;
-     border-radius: 10px;}
-.cat2{background-color: rgb(255, 51, 0);
-    padding: 10px 20px;
-    border-radius: 10px;}
-.cat3{background-color: rgb(0, 81, 255);
-    padding: 10px 20px;
-    border-radius: 10px;}
-.catImg{width: 100px;}
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ a:hover{
+    text-decoration: none;
+ }
+ .bgPink{
+    background-color: #FEEAE9;
+ }
+ .textPink{
+    color: #ff267b;
+ }
+ 
+ .btnPink{
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    color: #ffff;
+ }
+ 
+ /* Header Style */
+ .search-bar{
+    position: relative;
+    width: 65%;
+ }
+ .search-bar .form-control{
+    border-radius: 25px;
+    border-color: transparent;
+    padding-left: 25px;
+ }
+ .search-bar button{
+    position: absolute;
+    top: 0;
+    right: 20px;
+ }
+ .search-bar .btn:focus{
+    outline: none;
+ }
+ 
+ /* Slider Custom Style */
+ .carousel{
+    border-radius: 15px;
+ }
+ .carousel-indicators li{
+    height: 8px;
+    width: 30px;
+    border-radius: 5px;
+    border: 0;
+    opacity: 1;
+ }
+ .carousel-indicators .active{
+    background-color: #ff267b;
+    width: 45px;
+ }
+ 
+ /* Category Custom Style */
+ .categoryBox{
+    color: #ffffff;
+    border-radius: 12px;
+ }
+ .categoryBox:hover h1{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+ }
+ 
+ .categoryBox img{
+    height: 110px;
+ }
+ #category-1{
+    background-image: linear-gradient(45deg , #FF9C35 , #FFD019);
+ }
+ #category-2{
+    background-image: linear-gradient(to bottom , #FF589B , #FF136F);
+ }
+ #category-3{
+    background-image: linear-gradient(45deg , #4289FF , #3F07F8);
+ }
+ 
+ /* Products Custom Style */
+ .card{
+    border: 0;
+    box-shadow: 0 0 30px #0000000d;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    transition: .3s ease-in-out;
+ }
+ .card:hover{
+    box-shadow: 0 0 40px #524f4f3b;
+ }
+ 
+ /* Subscription Custom Style */
+ .subscription .bgPink{
+    border-radius: 10px;
+ }
+ .subscription .form-control{
+    border:0;
+ }
